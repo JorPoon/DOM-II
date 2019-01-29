@@ -26,3 +26,7 @@ console.log(headerTwo.length);
 headerTwo[0].addEventListener("mouseover", event => {
     event.target.style.color = "orange";
 })
+
+headerTwo[0].addEventListener("mouseout", event => {
+    event.target.style.color = "black";
+})
