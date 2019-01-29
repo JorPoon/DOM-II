@@ -17,3 +17,12 @@ signBtn[1].addEventListener("mouseover", event => {
 signBtn[2].addEventListener("dblclick", event => {
     confirm("ARE YOU SURE????");
 })
+
+
+const headerTwo = document.querySelectorAll("h2");
+
+console.log(headerTwo.length);
+
+headerTwo[0].addEventListener("mouseover", event => {
+    event.target.style.color = "orange";
+})
