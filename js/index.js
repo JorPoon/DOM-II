@@ -28,5 +28,12 @@ headerTwo[0].addEventListener("mouseover", event => {
 })
 
 headerTwo[0].addEventListener("mouseout", event => {
-    event.target.style.color = "black";
+    event.target.style.color = "black"
 })
+
+headerTwo[1].addEventListener("mousedown", event => {
+    event.target.style.color = "red";
+})
+
+const allP = document.querySelectorAll("p");
+
