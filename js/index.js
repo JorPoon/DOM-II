@@ -39,12 +39,18 @@ headerTwo[2].addEventListener("mouseup", event => {
     event.target.style.color = "blue";
 })
 
-headerTwo[3].addEventListener("keydown", event =>{
-    alert("hi");  
-  });
+// headerTwo[3].addEventListener("keydown", event =>{
+//     alert("hi");  
+//   });
 
 const allP = document.querySelectorAll("p");
 
 window.addEventListener("load", event => {
     alert("PRESS OK")
+})
+
+const imageBus = document.querySelector('.img1');
+
+window.addEventListener("keydown", event => {
+    alert("hi");
 })
