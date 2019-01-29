@@ -51,6 +51,10 @@ window.addEventListener("load", event => {
 
 const imageBus = document.querySelector('.img1');
 
-window.addEventListener("keydown", event => {
-    alert("hi");
+window.addEventListener("keyup", event => {
+    alert("woah woah");
+})
+
+window.addEventListener("keypress", event => {
+    headerTwo[3].style.color = "pink"
 })
