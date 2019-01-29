@@ -35,5 +35,9 @@ headerTwo[1].addEventListener("mousedown", event => {
     event.target.style.color = "red";
 })
 
+headerTwo[2].addEventListener("mouseup", event => {
+    event.target.style.color = "blue";
+})
+
 const allP = document.querySelectorAll("p");
 
