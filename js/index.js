@@ -58,3 +58,14 @@ window.addEventListener("keyup", event => {
 window.addEventListener("keypress", event => {
     headerTwo[3].style.color = "pink"
 })
+
+allP[1].addEventListener("click" , event => {
+    event.stopPropagation();
+    event.target.style.color = "green";
+})
+
+allP[1].addEventListener("mouseover" , event => {
+    event.stopPropagation();
+    event.target.style.color = "yellow";
+})
+
