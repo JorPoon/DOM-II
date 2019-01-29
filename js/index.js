@@ -10,8 +10,8 @@ signBtn[0].addEventListener("click", event => {
     signBtn[0].innerHTML = `Click count ${event.detail}`;
 })
 
-signBtn[1].addEventListener("click", event => {
-    console.log("hello");
+signBtn[1].addEventListener("mouseover", event => {
+   alert("SIGNING UP WOOT WOOT")
 })
 
 signBtn[2].addEventListener("click", event => {
