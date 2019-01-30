@@ -24,6 +24,7 @@ const headerTwo = document.querySelectorAll("h2");
 console.log(headerTwo.length);
 
 headerTwo[0].addEventListener("mouseover", event => {
+    event.stopPropagation();
     event.target.style.color = "orange";
 })
 
@@ -60,10 +61,11 @@ window.addEventListener("keypress", event => {
 })
 
 
-allP.forEach(element => {addEventListener("click" , event => {
-    //event.stopPropagation();
-    event.target.style.color = "orange";
-}) });
+// allP.forEach(element => {addEventListener("click" , event => {
+//     event.stopPropagation();
+//     event.target.style.color = "orange";
+//     event.preventDefault();
+// }) });
 
 allP[1].addEventListener("click" , event => {
     event.stopPropagation();
@@ -71,7 +73,9 @@ allP[1].addEventListener("click" , event => {
 })
 
 allP[1].addEventListener("mouseover" , event => {
-    //event.stopPropagation();
+    event.stopPropagation();
     event.target.style.color = "yellow";
 })
+
+
 
